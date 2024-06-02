@@ -4,7 +4,7 @@ def f():
     def g():
         nonlocal a
         print("inside functiog g, a= ", a)
-        a=10
+        a=30
         print("inside functiog g after value change, a= ",a)
         def h():
             nonlocal a
