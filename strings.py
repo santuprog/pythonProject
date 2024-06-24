@@ -67,6 +67,36 @@ def strings():
     message='python is a language'
     print(message.replace('python','Java'))
 
+    print('    hello how are you    '.lstrip())
+    print('    hello how are you    '.rstrip())
+    print('    hello how are you    '.strip())
+
+    print(colors.split(','))
+    print(colors.split())
+    print('hello! how are you'.partition('!'))
+
+    print('>'.join(['I', 'am', 'ok']))
+    print(' '.join(['I', 'am', 'ok']))
+
+    name='Albert Einstein'
+    print(name.isalpha())
+    y='2024'
+    print(y.isdigit())
+    z='          \n\t'
+    print(z.isspace())
+
+
+    password=input('Enter the password:')
+    print(password.isalnum())
+
+    name='Santu Karmakar'
+    print(name.endswith('Karmakar'))
+    print(name.startswith('Santu'))
+
+    strl='message'.encode('utf16')
+    print(strl)
+    print(strl.decode('utf16'))
+
 def main():
     strings()
 
