@@ -1,0 +1,60 @@
+    1  git config --global user.name "Santu Karmakar"
+    2  git config --global user.email santutictkarmakar2010@gmail.com
+    3  git config --global init.default branch master
+    4  clear
+    5  git help config
+    6  history
+	    7  cd C:/Users/santu/PycharmProjects/pythonProject
+    8  git init
+    9  git status
+   10  git status
+   11  git add scope.py
+   12  git status
+   13  git rm --cached scope.py
+   14  git status
+   15  git add scope.py
+   16  git status
+   17 history
+   18  git status
+   19  git status
+   20  git status
+   21  git status
+   22  git add GIT_commands.txt
+   23  git status
+   24  git rm GIT_commands.txt
+   25  git rm --staged GIT_commands.txt
+   26  git status
+   27  git rm --cached GIT_commands.txt
+   28  git status
+   29  git add .
+   30  git status
+   31  git rm --cached GIT_commands.txt
+   32  git rm --cached __pycache__/
+   33  git rm --cached -r __pycache__/
+   34  git rm --cached .gitignore.txt
+   35  git status
+   36  git commit -m "first commit - commiting to the repository"
+   37  git status
+   38  history
+   39  git status
+   40  git status
+   41  git diff
+   42  git add scope.py
+   43  git status
+   44  git restore --staged scope.py
+   45  git status
+   46  git commit -a -m "commit all "
+   47  git status
+   48  git status
+   49  git restore scope.py
+   50  git mv "scope.py" "new_scope.py"
+   51  git status
+   52  git commit -m "changed the file name of scope.py"
+   53  git status
+   54  git mv "new_scope.py" "scope.py"
+   55  git status
+   56  git commit -m "changed the file name of scope.py"
+   57  git status
+   58  history
+
+
