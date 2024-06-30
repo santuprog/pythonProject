@@ -8,11 +8,11 @@ def func(str1):
             x=x+ch1
         else:
             x=x+'*'
-    print(x)
+    return x
 
 def main():
     y=input("enter the string:")
-    func(y)
+    print(func(y))
 
 if __name__=='__main__':
     main()
