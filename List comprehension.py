@@ -8,6 +8,7 @@ def list_comprehension(end):
     threshold=160
     tall=[x for x in list if x[1]>=threshold]
     print(tall)
+    print(list[2][0])
 
 #creating crossproducts of two list
     s1=['a','b','c']
